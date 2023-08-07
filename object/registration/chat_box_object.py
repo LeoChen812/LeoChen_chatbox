@@ -40,6 +40,7 @@ class ChatBotPage(BasePage):
     def input_text(self):
         self.wait_and_get_element(clo.INPUT_BAR)
         self.set_text_field(clo.INPUT_BAR, "price")
+        self.wait_and_get_element(clo.SEND_ICON)
         self.click_element(clo.SEND_ICON)
         time.sleep(5)
 
