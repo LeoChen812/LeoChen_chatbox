@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 
 class ChatBotPage(BasePage):
     """
-    Class to
+    Class to chat box pageobject
     """
     URL = "https://www.chatbot.com/chatbot-demo/"
 

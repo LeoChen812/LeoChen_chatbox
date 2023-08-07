@@ -1,5 +1,5 @@
 """
-The test cases for test opportunities page
+The test cases for test chat box page
 """
 import time
 from object.registration.chat_box_object import ChatBotPage
